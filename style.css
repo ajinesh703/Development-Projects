@@ -1,0 +1,86 @@
+body {
+  background-color: aliceblue;
+}
+
+.pic {
+  object-fit: cover;
+}
+
+.pic > img {
+  height: 200px;
+  width: 433px;
+  object-fit: cover;
+}
+.login {
+  background: #424242;
+  width: 432px;
+  display: flex;
+  height: 508px;
+  flex-direction: column;
+  flex: 1 1 0%;
+  -moz-box-flex: justify;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.font {
+  position: relative;
+  left: 70px;
+  top: 20px;
+  color: white;
+  font-style: normal;
+  font-weight: 880;
+  font-size: 24px;
+  line-height: 28px;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Mier bold;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.f6 {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.f7 {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  margin-right: 12px;
+}
+
+.f8 {
+  position: relative;
+  bottom: 400px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Mier book;
+  margin: 0px;
+  padding: 2px 0px;
+}
+
+.f9 {
+  position: relative;
+  bottom: 400px;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Mier demi;
+  margin: 0px;
+  padding: 8px 0px 7px;
+}
+
+.margin {
+  margin: 0px;
+  box-sizing: border-box;
+}
